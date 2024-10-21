@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "Text-Summarizer-Project"
-AUTHOR_USER_NAME = "entbappy"
+AUTHOR_USER_NAME = "saffronhamid"
 SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "Saffronhamid1234@gmail.com"
 
@@ -21,9 +21,9 @@ setuptools.setup(
     description="A small python package for NLP app",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{saffronhamid}/{Text-Summarizer}",
+    url=f"https://github.com/saffronhamid/Text-Summarizer.git",
     project_urls={
-        "Bug Tracker": f"https://github.com/{saffronhamid}/{Text-Summarizer}/issues",},
+        "Bug Tracker": f"https://github.com/saffronhamid/Text-Summarizer.git/issues",},
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
 )
